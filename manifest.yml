@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: investment-app1
+  host: investment-app1
+  disk_quota: 1024M
+  services:
+  - Personality Insights-bm
+  - Tradeoff Analytics-42
